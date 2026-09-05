@@ -34,9 +34,12 @@ Theo quy định đào tạo, sinh viên cần đạt một trong các chứng c
 * **VSTEP**: Đạt từ **Bậc 3 (B1)** đến **Bậc 4 (B2)** theo khung năng lực ngoại ngữ 6 bậc Việt Nam.
 * **TOEFL iBT**: Đạt từ **60+** điểm.
 
-> 💡 *Sinh viên có chứng chỉ quốc tế hợp lệ cần nộp đơn xin miễn/công nhận chuẩn đầu ra ngoại ngữ tại Văn phòng Khoa hoặc Cổng Đào tạo.*
+> 💡 *Sinh viên có chứng chỉ quốc tế hợp lệ cần nộp đơn xin xét miễn các học phần Anh văn (AV 1, 2, 3) hoặc công nhận chuẩn đầu ra qua Cổng Đào tạo.*
 
-📌 **Nguồn tham khảo & đối soát**: [Quy định Ngoại ngữ - Phòng Đào tạo Đại học DAA](https://daa.uit.edu.vn)`;
+📌 **Nguồn văn bản & tra cứu chính thức**:
+- Tra cứu tại: [Cổng Thông tin Đào tạo UIT (student.uit.edu.vn)](https://student.uit.edu.vn)  
+  *(Vào menu **Quy định - Hướng dẫn** ➔ chọn mục **"Hướng dẫn sinh viên về các quy định ngoại ngữ"**)*
+- Văn bản gốc: *Quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường ĐHCNTT*.`;
     } else if (lower.includes('tốt nghiệp') || lower.includes('điều kiện')) {
       responseText = `### 🎓 Điều Kiện Tốt Nghiệp Tại Trường ĐH Công Nghệ Thông Tin (UIT):
 
@@ -47,7 +50,9 @@ Theo quy định đào tạo, sinh viên cần đạt một trong các chứng c
 5. **Giáo dục thể chất & Giáo dục quốc phòng**: Có chứng chỉ GDTC và chứng chỉ GDQP-AN.
 6. **Không bị kỷ luật** từ mức đình chỉ học tập trở lên tại thời điểm xét tốt nghiệp.
 
-📌 **Nguồn tham khảo & đối soát**: [Sổ tay Học vụ & Quy chế Đào tạo UIT](https://daa.uit.edu.vn)`;
+📌 **Nguồn văn bản & tra cứu chính thức**:
+- Tra cứu tại: [Cổng Thông tin Đào tạo UIT (student.uit.edu.vn)](https://student.uit.edu.vn)  
+  *(Vào menu **Quy định - Hướng dẫn** ➔ chọn mục **"Quy chế, Quy định đào tạo đại học của Trường ĐHCNTT"**)*`;
     } else if (
       lower.includes('phòng ban') ||
       lower.includes('liên hệ') ||
@@ -78,7 +83,10 @@ Theo quy định đào tạo, sinh viên cần đạt một trong các chứng c
    - PTN An toàn Thông tin: **Phòng E8.1** (Khoa MMT quản lý)
    - PTN Hệ thống Thông tin: **Phòng E9.1** (Khoa HTTT quản lý)
 
-📌 **Nguồn tham khảo & đối soát**: [Cổng Dịch vụ Sinh viên UIT](https://student.uit.edu.vn)`;
+📌 **Kênh hỗ trợ trực tuyến chính thức**:
+- Tra cứu học vụ: [student.uit.edu.vn](https://student.uit.edu.vn)
+- Biểu mẫu sinh viên: [ctsv.uit.edu.vn](https://ctsv.uit.edu.vn)
+- Cổng tài chính - học phí: [khtc.uit.edu.vn](https://khtc.uit.edu.vn)`;
     } else {
       responseText = `Chào bạn! Mình là **UIT AI Assistant** — Trợ lý ảo sinh viên của Trường Đại học Công nghệ Thông tin (ĐHQG-HCM).
 

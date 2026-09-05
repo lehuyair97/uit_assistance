@@ -310,10 +310,6 @@ export const ChatDrawer: React.FC = () => {
               <Send size={16} />
             </button>
           </form>
-          <div className="chat-input-disclaimer">
-            <span className="disclaimer-badge">⚡ AI Grounding</span>
-            <span>Tri thức được nạp tự động từ Sổ tay UIT (Kèm link trích dẫn nguồn đối soát)</span>
-          </div>
         </div>
       </div>
     </>
