@@ -26,20 +26,19 @@ export class MockAiService {
 
 > 💡 *Kiểm định quốc tế ASIIN khẳng định chất lượng đào tạo hàng đầu của UIT, bằng cấp được công nhận rộng rãi tại châu Âu và quốc tế.*`;
     } else if (lower.includes('ngoại ngữ') || lower.includes('tiếng anh') || lower.includes('toeic') || lower.includes('ielts')) {
-      responseText = `### 🌐 Chuẩn Ngoại Ngữ Đầu Ra Tại Trường ĐH Công Nghệ Thông Tin (UIT):
+      responseText = `### 🌐 Chuẩn Ngoại Ngữ & Miễn Môn Tiếng Anh Tại UIT:
 
-Theo quy định đào tạo, sinh viên cần đạt một trong các chứng chỉ quốc tế còn hiệu lực:
-* **TOEIC**: Đạt từ **550 – 650+** điểm (Listening & Reading) tùy theo từng chương trình Chuẩn hoặc Chương trình Đặc biệt.
-* **IELTS Academic**: Đạt từ **5.5 – 6.0+**.
-* **VSTEP**: Đạt từ **Bậc 3 (B1)** đến **Bậc 4 (B2)** theo khung năng lực ngoại ngữ 6 bậc Việt Nam.
-* **TOEFL iBT**: Đạt từ **60+** điểm.
+Theo quy định đào tạo ngoại ngữ hệ đại học chính quy (cập nhật mới nhất theo QĐ 828, QĐ 364 và QĐ 560/QĐ-ĐHCNTT):
+* **TOEIC 4 kỹ năng**: Đạt từ **Nghe - Đọc 675+** và **Nói - Viết 225+**.
+* **IELTS Academic**: Đạt từ **5.5 – 6.0+** (tùy ngành và chương trình Chuẩn / Đặc biệt).
+* **VSTEP**: Đạt từ **Bậc 3 (B1)** đến **Bậc 4 (B2)** theo khung 6 bậc Việt Nam.
 
-> 💡 *Sinh viên có chứng chỉ quốc tế hợp lệ cần nộp đơn xin xét miễn các học phần Anh văn (AV 1, 2, 3) hoặc công nhận chuẩn đầu ra qua Cổng Đào tạo.*
+> 📅 **Thời hạn nộp chứng chỉ xét miễn Anh văn 1, 2, 3**:
+> - **Học kỳ 1**: 2 tuần cuối tháng 7 hàng năm.
+> - **Học kỳ 2**: 2 tuần cuối tháng 11 hàng năm.
 
-📌 **Nguồn văn bản & tra cứu chính thức**:
-- Tra cứu tại: [Cổng Thông tin Đào tạo UIT (student.uit.edu.vn)](https://student.uit.edu.vn)  
-  *(Vào menu **Quy định - Hướng dẫn** ➔ chọn mục **"Hướng dẫn sinh viên về các quy định ngoại ngữ"**)*
-- Văn bản gốc: *Quy định đào tạo ngoại ngữ đối với hệ đại học chính quy của Trường ĐHCNTT*.`;
+📌 **Link văn bản quy định & bảng tra cứu chi tiết**:  
+👉 [Xem bài đăng: Hướng dẫn thực hiện quy định về chuẩn ngoại ngữ - Phòng ĐTĐH UIT](https://daa.uit.edu.vn/content/huong-dan-sinh-vien-dai-hoc-he-chinh-quy-thuc-hien-cac-quy-dinh-ve-chuan-qua-trinh-va-chuan)`;
     } else if (lower.includes('tốt nghiệp') || lower.includes('điều kiện')) {
       responseText = `### 🎓 Điều Kiện Tốt Nghiệp Tại Trường ĐH Công Nghệ Thông Tin (UIT):
 
