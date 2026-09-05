@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+
+:root {
+  --uit-primary: #005baa;
+  --uit-primary-dark: #003b73;
+  --uit-primary-light: #e6f1fb;
+  --uit-accent: #0284c7;
+  --uit-gold: #f59e0b;
+  --uit-gold-dark: #d97706;
+  --uit-dark-bg: #111827;
+  --uit-dark-nav: #1f2937;
+  --uit-text-main: #1e293b;
+  --uit-text-muted: #64748b;
+  --uit-border: #e2e8f0;
+  
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Space Grotesk', var(--font-sans);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: var(--font-sans);
+  background-color: #f8fafc;
+  color: var(--uit-text-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
