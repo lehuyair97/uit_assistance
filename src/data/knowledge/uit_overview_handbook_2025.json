@@ -1,0 +1,161 @@
+{
+  "documentMetadata": {
+    "title": "BÀI 01: TỔNG QUAN - KHOA KHOA HỌC VÀ KỸ THUẬT THÔNG TIN (2025)",
+    "sourceFile": "01 - Tong quan 2025-posted.pdf",
+    "authorUnit": "Khoa Khoa học và Kỹ thuật thông tin - Bộ môn Thiết bị di động và Công nghệ Web",
+    "institution": "Trường Đại học Công nghệ Thông tin - ĐHQG TP.HCM",
+    "updatedAt": "2026-09-05"
+  },
+  "institutionOverview": {
+    "name": "Trường Đại học Công nghệ Thông tin - ĐHQG TP.HCM (UIT)",
+    "mission": "Trường Đại học Công nghệ Thông tin là một trung tâm đào tạo đại học, sau đại học cung cấp nguồn nhân lực chất lượng cao, nhằm đáp ứng nhu cầu của thị trường lao động và phục vụ cộng đồng; là một trung tâm hàng đầu về nghiên cứu khoa học và chuyển giao công nghệ về công nghệ thông tin - truyền thông và các lĩnh vực liên quan.",
+    "vision": "Trở thành trường đại học uy tín về công nghệ thông tin - truyền thông và các lĩnh vực liên quan trong khu vực Châu Á.",
+    "educationalPhilosophy": "Toàn diện – Sáng tạo – Phụng sự",
+    "contact": {
+      "address": "Khu phố 6, Phường Linh Trung, TP. Thủ Đức, TP. Hồ Chí Minh (trước đây ghi Khu phố 34, P. Linh Xuân)",
+      "phone": "(028) 3725 2002 - Số nội bộ: 101",
+      "fax": "(028) 3725 2148",
+      "website": "https://www.uit.edu.vn",
+      "admissionsWebsite": "https://tuyensinh.uit.edu.vn",
+      "email": "info@uit.edu.vn"
+    }
+  },
+  "facultyInformationScienceAndEngineering": {
+    "code": "KTTT",
+    "vietnameseName": "Khoa Khoa học và Kỹ thuật thông tin",
+    "englishName": "Faculty of Information Science and Engineering (FISE)",
+    "location": "Tầng 10, Tòa nhà E, UIT",
+    "office": {
+      "room": "Phòng E10.2, Tầng 10, Tòa nhà E",
+      "staff": ["Cô Thảo", "Cô Hoài"],
+      "workingHours": {
+        "morning": "07:30 - 11:30",
+        "afternoon": "13:30 - 16:30"
+      },
+      "handledProcedures": [
+        "Nhận chứng chỉ Giáo dục quốc phòng - An ninh (GDQP-AN)",
+        "Các loại đơn từ cần xác nhận của Khoa: đơn xin chuyển ngành, đơn xin thôi học, đơn xin miễn học phần ngoại ngữ",
+        "Các hoạt động và phong trào của Đoàn Thanh niên / Hội Sinh viên trực thuộc Khoa"
+      ]
+    },
+    "departments": [
+      {
+        "name": "Bộ môn Thiết bị di động và Công nghệ Web (Department of Mobile devices and Web technology)",
+        "room": "Phòng E10.6, Tòa nhà E"
+      },
+      {
+        "name": "Bộ môn Khoa học dữ liệu (Department of Data science)",
+        "room": "Phòng E10.4, Tòa nhà E"
+      }
+    ],
+    "trainingPrograms": [
+      {
+        "degree": "Bậc Cử nhân (Đại học)",
+        "duration": "Thời gian đúng hạn: 4 năm",
+        "majors": [
+          {
+            "name": "Công nghệ Thông tin (Information Technology)",
+            "curriculumUrl": "https://daa.uit.edu.vn/content/cu-nhan-nganh-cong-nghe-thong-tin-ap-dung-tu-khoa-19-2024",
+            "appliedFrom": "Khóa 19 (Năm 2024 trở đi)"
+          },
+          {
+            "name": "Khoa học Dữ liệu (Data Science)"
+          }
+        ]
+      },
+      {
+        "degree": "Bậc Thạc sĩ",
+        "duration": "Thời gian đúng hạn: 2 năm",
+        "majors": ["Đào tạo Thạc sĩ ngành Công nghệ thông tin"]
+      },
+      {
+        "degree": "Bậc Tiến sĩ",
+        "duration": "Thời gian đúng hạn: 3 năm",
+        "majors": ["Đào tạo Tiến sĩ ngành Công nghệ thông tin"]
+      }
+    ],
+    "facultyWebsites": {
+      "vietnamese": "https://fit.uit.edu.vn/",
+      "english": "https://fit.uit.edu.vn/en/"
+    }
+  },
+  "administrativeUnits": [
+    {
+      "unit": "Phòng Đào tạo Đại học (P. ĐTĐH)",
+      "scope": "Liên quan đến đăng ký học phần, các môn học, thời khóa biểu, lịch thi, lịch học, điểm số, bảng điểm, phúc khảo, bảo lưu kết quả, chuyển trường, chuyển ngành...",
+      "email": "phongdaotaodh@uit.edu.vn",
+      "websites": ["https://student.uit.edu.vn", "https://daa.uit.edu.vn"]
+    },
+    {
+      "unit": "Phòng Công tác Sinh viên (P. CTSV)",
+      "scope": "Liên quan đến hồ sơ sinh viên, thẻ sinh viên, giấy xác nhận sinh viên (vay vốn, hoãn NVQS, làm việc), học bổng, chính sách xã hội, điểm rèn luyện (ĐRL), chăm sóc sức khỏe, hỗ trợ tâm lý, các hoạt động hỗ trợ sinh viên...",
+      "email": "ctsv@uit.edu.vn",
+      "website": "https://ctsv.uit.edu.vn"
+    },
+    {
+      "unit": "Phòng Kế hoạch - Tài chính (P. KHTC)",
+      "location": "Phòng A103",
+      "scope": "Liên quan đến học phí, thủ tục và định mức đóng học phí, tra cứu tình trạng nợ học phí, hoàn trả học phí...",
+      "email": "khtc@uit.edu.vn",
+      "website": "https://khtc.uit.edu.vn"
+    },
+    {
+      "unit": "Văn phòng các Chương trình Đặc biệt (VPĐB / OEP)",
+      "location": "Phòng E2.1",
+      "scope": "Liên quan đến sinh viên các chương trình: Tài năng, Tiên tiến, Việt - Nhật, Liên kết BCU (Birmingham City University), Liên kết quốc tế 2+2...",
+      "email": "vpdb@uit.edu.vn",
+      "website": "https://oep.uit.edu.vn"
+    }
+  ],
+  "specializedLaboratories": [
+    {
+      "name": "Phòng thí nghiệm Truyền thông Đa phương tiện (Multimedia Lab)",
+      "managingFaculty": "Khoa Khoa học Máy tính (KHMT)",
+      "location": "Phòng E5.1, Tòa nhà E"
+    },
+    {
+      "name": "Phòng thí nghiệm An toàn Thông tin (Information Security Lab)",
+      "managingFaculty": "Khoa Mạng máy tính và Truyền thông (MMT)",
+      "location": "Phòng E8.1, Tòa nhà E"
+    },
+    {
+      "name": "Phòng thí nghiệm Hệ thống Thông tin (Information Systems Lab)",
+      "managingFaculty": "Khoa Hệ thống Thông tin (HTTT)",
+      "location": "Phòng E9.1, Tòa nhà E"
+    }
+  ],
+  "studentSupportChannels": {
+    "facilitiesFeedback": "https://forum.uit.edu.vn/c/cong-dong-uit/co-so-vat-chat/41",
+    "monthlyParkingSupport": "https://forum.uit.edu.vn (chuyên mục Kênh hỗ trợ triển khai gửi xe tháng)",
+    "studentCommunityGroup": "https://www.facebook.com/share/g/M3moRR9RJu2EQLJ7/"
+  },
+  "internationalAndIndustryPartnerships": {
+    "japanPartners": [
+      "Hợp tác với các cơ quan và doanh nghiệp Nhật Bản",
+      "Chương trình trao đổi thực tập sinh viên với công ty MEC (Nhật Bản, bắt đầu từ tháng 8/2019)",
+      "Chương trình trao đổi sinh viên quốc tế với Đại học SAGA (Nhật Bản)"
+    ]
+  },
+  "scenarioGuideForStudents": [
+    {
+      "scenario": "Cần tư vấn để chọn môn học đăng ký học kỳ sắp tới",
+      "contactPerson": "Cố vấn học tập (CVHT) của lớp/khoa là người tư vấn thích hợp nhất"
+    },
+    {
+      "scenario": "Gặp vấn đề về môn học, trùng lịch, thời khóa biểu, lịch thi hoặc phúc khảo điểm",
+      "contactUnit": "Phòng Đào tạo Đại học (Email: phongdaotaodh@uit.edu.vn - Website: https://student.uit.edu.vn)"
+    },
+    {
+      "scenario": "Gặp vấn đề về học phí, hạn nộp học phí, thắc mắc số tiền",
+      "contactUnit": "Phòng Kế hoạch - Tài chính tại Phòng A103 (Email: khtc@uit.edu.vn)"
+    },
+    {
+      "scenario": "Cần làm thẻ sinh viên, xin giấy xác nhận sinh viên, tra cứu điểm rèn luyện, đăng ký học bổng",
+      "contactUnit": "Phòng Công tác Sinh viên (Email: ctsv@uit.edu.vn - Website: https://ctsv.uit.edu.vn)"
+    },
+    {
+      "scenario": "Nhận chứng chỉ Giáo dục Quốc phòng (GDQP-AN), ký đơn xin chuyển ngành, đơn xin miễn môn ngoại ngữ",
+      "contactUnit": "Văn phòng Khoa KH&KTTT tại Phòng E10.2 (Gặp Cô Thảo hoặc Cô Hoài trong giờ hành chính)"
+    }
+  ]
+}

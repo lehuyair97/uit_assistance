@@ -34,11 +34,41 @@ export class MockAiService {
 4. **Chuẩn tin học & Kỹ năng mềm**: Hoàn thành các chứng chỉ kỹ năng mềm và kỹ năng bổ trợ do trường tổ chức.
 5. **Giáo dục thể chất & Giáo dục quốc phòng**: Có chứng chỉ GDTC và GDQP-AN.
 6. **Không bị kỷ luật** từ mức đình chỉ học tập trở lên tại thời điểm xét tốt nghiệp.`;
+    } else if (
+      lower.includes('phòng ban') ||
+      lower.includes('liên hệ') ||
+      lower.includes('đào tạo') ||
+      lower.includes('công tác sinh viên') ||
+      lower.includes('kế hoạch tài chính') ||
+      lower.includes('khoa') ||
+      lower.includes('thí nghiệm') ||
+      lower.includes('học phí')
+    ) {
+      responseText = `### 🏢 Danh Sách Các Đơn Vị & Phòng Ban Sinh Viên Thường Liên Hệ (Trích Sổ tay UIT 2025):
+
+1. **Phòng Đào tạo Đại học**:
+   - **Nhiệm vụ**: Đăng ký học phần, thời khóa biểu, lịch thi, điểm số, phúc khảo, bảo lưu, chuyển ngành.
+   - **Email**: \`phongdaotaodh@uit.edu.vn\` | **Website**: [student.uit.edu.vn](https://student.uit.edu.vn)
+2. **Phòng Công tác Sinh viên (CTSV)**:
+   - **Nhiệm vụ**: Thẻ sinh viên, giấy xác nhận sinh viên (vay vốn, hoãn NVQS), học bổng, điểm rèn luyện, bảo hiểm y tế.
+   - **Email**: \`ctsv@uit.edu.vn\` | **Website**: [ctsv.uit.edu.vn](https://ctsv.uit.edu.vn)
+3. **Phòng Kế hoạch - Tài chính**:
+   - **Vị trí**: **Phòng A103**
+   - **Nhiệm vụ**: Học phí, thủ tục đóng học phí, tra cứu học phí còn nợ.
+   - **Email**: \`khtc@uit.edu.vn\` | **Website**: [khtc.uit.edu.vn](https://khtc.uit.edu.vn)
+4. **Khoa Khoa học và Kỹ thuật Thông tin (KHTT)**:
+   - **Văn phòng Khoa**: **Phòng E10.2** (Tầng 10, Tòa nhà E) - Gặp Cô Thảo, Cô Hoài (Sáng: 7h30-11h30, Chiều: 13h30-16h30).
+   - **Giải quyết**: Nhận chứng chỉ GDQP-AN, đơn chuyển ngành, đơn xin miễn học phần ngoại ngữ.
+5. **Các Phòng Thí Nghiệm Trọng Điểm**:
+   - PTN Truyền thông Đa phương tiện: **Phòng E5.1** (Khoa KHMT quản lý)
+   - PTN An toàn Thông tin: **Phòng E8.1** (Khoa MMT quản lý)
+   - PTN Hệ thống Thông tin: **Phòng E9.1** (Khoa HTTT quản lý)`;
     } else {
       responseText = `Chào bạn! Mình là **UIT AI Assistant** — Trợ lý ảo sinh viên của Trường Đại học Công nghệ Thông tin (ĐHQG-HCM).
 
 Mình có thể hỗ trợ bạn giải đáp các vấn đề:
-- 🏛️ **Kiểm định chất lượng ASIIN & AUN-QA**
+- 🏛️ **Địa chỉ phòng ban, phòng thí nghiệm & liên hệ các Khoa**
+- 🏅 **Kiểm định chất lượng ASIIN & AUN-QA**
 - 📚 **Chương trình đào tạo, môn học & đề cương**
 - 📝 **Quy chế học vụ, đăng ký môn học, điều kiện tốt nghiệp**
 - 📅 **Lịch học, lịch thi và thủ tục hành chính trực tuyến**

@@ -4,6 +4,7 @@ import asiinData from '@/data/knowledge/asiin_programs.json';
 import academicData from '@/data/knowledge/academic_regulations.json';
 import admissionsData from '@/data/knowledge/scholarships_admissions.json';
 import facultiesData from '@/data/knowledge/faculties_and_units.json';
+import uitOverview2025Data from '@/data/knowledge/uit_overview_handbook_2025.json';
 
 export class KnowledgeService {
   private static instance: KnowledgeService;
@@ -38,6 +39,9 @@ ${JSON.stringify(admissionsData)}
 
 4. **KHOA / NGÀNH & HỆ THỐNG CỔNG DỊCH VỤ SINH VIÊN**:
 ${JSON.stringify(facultiesData)}
+
+5. **TỔNG QUAN UIT 2025, ĐỊA CHỈ PHÒNG BAN, PHÒNG THÍ NGHIỆM & SỔ TAY SINH VIÊN (Trích xuất từ slide 01 - Tong quan 2025-posted.pdf)**:
+${JSON.stringify(uitOverview2025Data)}
 `;
 
     return {
@@ -51,6 +55,13 @@ ${JSON.stringify(facultiesData)}
    */
   public getAvailableDocuments(): KnowledgeDocument[] {
     return [
+      {
+        id: 'uit-overview-handbook-2025',
+        title: 'BÀI 01: Tổng quan Trường ĐH Công nghệ Thông tin & Khoa KH&KTTT (2025)',
+        category: 'handbook',
+        summary: 'Tổng quan sứ mạng, triết lý giáo dục (Toàn diện - Sáng tạo - Phụng sự), địa chỉ phòng ban (ĐTĐH, CTSV, KHTC phòng A103, VPĐB phòng E2.1), phòng thí nghiệm (E5.1, E8.1, E9.1), liên hệ Khoa KH&KTTT (E10.2), chương trình đào tạo CNTT/KHDL và hướng dẫn xử lý tình huống học vụ.',
+        updatedAt: '2026-09-05',
+      },
       {
         id: 'uit-asiin-2024-2026',
         title: 'Chương trình đào tạo đạt chuẩn kiểm định quốc tế ASIIN (2024 - 2026)',

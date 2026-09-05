@@ -8,11 +8,12 @@ interface PromptChipsProps {
 }
 
 const DEFAULT_PROMPTS = [
+  '🏢 Phòng Đào tạo, CTSV & KHTC ở đâu?',
+  '🏛️ Liên hệ Văn phòng Khoa KHTT?',
   '🏅 Các ngành đạt chuẩn ASIIN?',
   '🎓 Điều kiện tốt nghiệp UIT là gì?',
   '💰 Chính sách học bổng & học phí?',
   '📝 Quy chế tính điểm GPA & ĐRL?',
-  '🏛️ Danh sách các Khoa tại UIT?',
 ];
 
 export const PromptChips: React.FC<PromptChipsProps> = ({ onSelectPrompt, disabled }) => {
