@@ -1283,6 +1283,42 @@ button {
   cursor: not-allowed;
 }
 
+.chat-input-disclaimer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  font-size: 0.72rem;
+  color: #64748b;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.chat-input-disclaimer .disclaimer-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  background: #e0f2fe;
+  color: #0284c7;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.68rem;
+}
+
+.markdown-content a {
+  color: #0284c7;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 600;
+  transition: color 0.15s ease;
+}
+
+.markdown-content a:hover {
+  color: #0369a1;
+}
+
 /* Markdown typography in chat */
 .markdown-content p {
   margin-bottom: 0.6rem;

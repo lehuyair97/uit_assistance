@@ -296,7 +296,7 @@ export const ChatDrawer: React.FC = () => {
             <input
               type="text"
               className="chat-input"
-              placeholder="Nhập câu hỏi về UIT, kiểm định ASIIN, quy chế..."
+              placeholder="Hỏi về quy chế, địa chỉ phòng ban, chuẩn ngoại ngữ..."
               value={inputVal}
               onChange={(e) => setInputVal(e.target.value)}
               disabled={isStreaming}
@@ -310,6 +310,10 @@ export const ChatDrawer: React.FC = () => {
               <Send size={16} />
             </button>
           </form>
+          <div className="chat-input-disclaimer">
+            <span className="disclaimer-badge">⚡ AI Grounding</span>
+            <span>Tri thức được nạp tự động từ Sổ tay UIT (Kèm link trích dẫn nguồn đối soát)</span>
+          </div>
         </div>
       </div>
     </>

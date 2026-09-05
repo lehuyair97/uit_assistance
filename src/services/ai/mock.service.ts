@@ -25,15 +25,29 @@ export class MockAiService {
   - 🎓 **Thạc sĩ Công nghệ Thông tin**
 
 > 💡 *Kiểm định quốc tế ASIIN khẳng định chất lượng đào tạo hàng đầu của UIT, bằng cấp được công nhận rộng rãi tại châu Âu và quốc tế.*`;
+    } else if (lower.includes('ngoại ngữ') || lower.includes('tiếng anh') || lower.includes('toeic') || lower.includes('ielts')) {
+      responseText = `### 🌐 Chuẩn Ngoại Ngữ Đầu Ra Tại Trường ĐH Công Nghệ Thông Tin (UIT):
+
+Theo quy định đào tạo, sinh viên cần đạt một trong các chứng chỉ quốc tế còn hiệu lực:
+* **TOEIC**: Đạt từ **550 – 650+** điểm (Listening & Reading) tùy theo từng chương trình Chuẩn hoặc Chương trình Đặc biệt.
+* **IELTS Academic**: Đạt từ **5.5 – 6.0+**.
+* **VSTEP**: Đạt từ **Bậc 3 (B1)** đến **Bậc 4 (B2)** theo khung năng lực ngoại ngữ 6 bậc Việt Nam.
+* **TOEFL iBT**: Đạt từ **60+** điểm.
+
+> 💡 *Sinh viên có chứng chỉ quốc tế hợp lệ cần nộp đơn xin miễn/công nhận chuẩn đầu ra ngoại ngữ tại Văn phòng Khoa hoặc Cổng Đào tạo.*
+
+📌 **Nguồn tham khảo & đối soát**: [Quy định Ngoại ngữ - Phòng Đào tạo Đại học DAA](https://daa.uit.edu.vn)`;
     } else if (lower.includes('tốt nghiệp') || lower.includes('điều kiện')) {
       responseText = `### 🎓 Điều Kiện Tốt Nghiệp Tại Trường ĐH Công Nghệ Thông Tin (UIT):
 
-1. **Tích lũy đủ số tín chỉ**: Hoàn thành đầy đủ các học phần theo khung chương trình đào tạo của ngành.
-2. **Điểm trung bình tích lũy (GPA)**: Đạt từ **2.0/4.0** (hoặc 5.0/10) trở lên.
-3. **Chuẩn ngoại ngữ đầu ra**: Đạt chứng chỉ quốc tế (TOEIC, IELTS, TOEFL, VSTEP) theo quy định của từng khóa.
-4. **Chuẩn tin học & Kỹ năng mềm**: Hoàn thành các chứng chỉ kỹ năng mềm và kỹ năng bổ trợ do trường tổ chức.
-5. **Giáo dục thể chất & Giáo dục quốc phòng**: Có chứng chỉ GDTC và GDQP-AN.
-6. **Không bị kỷ luật** từ mức đình chỉ học tập trở lên tại thời điểm xét tốt nghiệp.`;
+1. **Tích lũy đủ số tín chỉ**: Hoàn thành từ 120 đến 135 tín chỉ theo khung chương trình đào tạo của từng ngành.
+2. **Điểm trung bình tích lũy (GPA)**: Đạt từ **2.00 / 4.00** trở lên (tương đương 5.0/10).
+3. **Chuẩn ngoại ngữ đầu ra**: Đạt chứng chỉ quốc tế (TOEIC 550+, IELTS 5.5+, TOEFL hoặc VSTEP) theo quy định.
+4. **Chuẩn tin học & Kỹ năng mềm**: Hoàn thành tối thiểu 02 chuyên đề kỹ năng mềm và kỹ năng bổ trợ do trường tổ chức.
+5. **Giáo dục thể chất & Giáo dục quốc phòng**: Có chứng chỉ GDTC và chứng chỉ GDQP-AN.
+6. **Không bị kỷ luật** từ mức đình chỉ học tập trở lên tại thời điểm xét tốt nghiệp.
+
+📌 **Nguồn tham khảo & đối soát**: [Sổ tay Học vụ & Quy chế Đào tạo UIT](https://daa.uit.edu.vn)`;
     } else if (
       lower.includes('phòng ban') ||
       lower.includes('liên hệ') ||
@@ -62,7 +76,9 @@ export class MockAiService {
 5. **Các Phòng Thí Nghiệm Trọng Điểm**:
    - PTN Truyền thông Đa phương tiện: **Phòng E5.1** (Khoa KHMT quản lý)
    - PTN An toàn Thông tin: **Phòng E8.1** (Khoa MMT quản lý)
-   - PTN Hệ thống Thông tin: **Phòng E9.1** (Khoa HTTT quản lý)`;
+   - PTN Hệ thống Thông tin: **Phòng E9.1** (Khoa HTTT quản lý)
+
+📌 **Nguồn tham khảo & đối soát**: [Cổng Dịch vụ Sinh viên UIT](https://student.uit.edu.vn)`;
     } else {
       responseText = `Chào bạn! Mình là **UIT AI Assistant** — Trợ lý ảo sinh viên của Trường Đại học Công nghệ Thông tin (ĐHQG-HCM).
 
