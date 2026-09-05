@@ -11,6 +11,7 @@ interface ChatMessageItemProps {
 
 export const ChatMessageItem: React.FC<ChatMessageItemProps> = ({ message }) => {
   const isUser = message.role === 'user';
+  const isWaitingResponse = !isUser && message.isStreaming && !message.content.trim();
 
   return (
     <div className={`chat-bubble-container ${isUser ? 'user' : 'model'}`}>
@@ -19,8 +20,18 @@ export const ChatMessageItem: React.FC<ChatMessageItemProps> = ({ message }) => 
       </div>
 
       <div className={`chat-bubble ${isUser ? 'user' : 'model'}`}>
-        <MarkdownRenderer content={message.content} />
-        {message.isStreaming && <span className="typing-cursor" />}
+        {isWaitingResponse ? (
+          <div className="typing-indicator-dots" aria-label="Đang xử lý câu trả lời...">
+            <span className="dot" />
+            <span className="dot" />
+            <span className="dot" />
+          </div>
+        ) : (
+          <>
+            <MarkdownRenderer content={message.content} />
+            {message.isStreaming && <span className="typing-cursor" />}
+          </>
+        )}
       </div>
     </div>
   );

@@ -29,10 +29,16 @@ export const ChatDrawer: React.FC = () => {
   } = useChatStore();
 
   const [inputVal, setInputVal] = useState('');
+  const [isMounted, setIsMounted] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   const currentSession = getCurrentSession();
-  const messages = currentSession?.messages || [];
+  const messages = isMounted ? (currentSession?.messages || []) : [];
+  const sessionTitle = isMounted ? (currentSession?.title || 'Phiên hỏi đáp') : 'Phiên hỏi đáp mới';
 
   // Auto-scroll when messages update
   const scrollToBottom = () => {
@@ -40,8 +46,10 @@ export const ChatDrawer: React.FC = () => {
   };
 
   useEffect(() => {
-    scrollToBottom();
-  }, [messages, isStreaming]);
+    if (isMounted) {
+      scrollToBottom();
+    }
+  }, [messages, isStreaming, isMounted]);
 
   // When activePrompt changes from outside (e.g. clicking banner button)
   useEffect(() => {
@@ -164,8 +172,8 @@ export const ChatDrawer: React.FC = () => {
               <div className="chat-header-title">UIT AI Assistant</div>
               <div className="chat-header-status">
                 <span className="status-dot" />
-                <span className="session-current-title" title={currentSession?.title}>
-                  {currentSession?.title || 'Phiên hỏi đáp'}
+                <span className="session-current-title" title={sessionTitle} suppressHydrationWarning>
+                  {sessionTitle}
                 </span>
               </div>
             </div>
@@ -189,7 +197,7 @@ export const ChatDrawer: React.FC = () => {
               title="Danh sách phiên hội thoại"
             >
               <History size={16} />
-              <span className="session-badge">{sessions.length}</span>
+              <span className="session-badge" suppressHydrationWarning>{isMounted ? sessions.length : 1}</span>
             </button>
 
             <button 
