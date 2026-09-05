@@ -310,6 +310,9 @@ export const ChatDrawer: React.FC = () => {
               <Send size={16} />
             </button>
           </form>
+          <div className="chat-bottom-disclaimer">
+            UIT AI có thể mắc sai sót. Vui lòng kiểm tra lại thông tin quan trọng tại <a href="https://www.uit.edu.vn" target="_blank" rel="noreferrer">uit.edu.vn</a>
+          </div>
         </div>
       </div>
     </>
