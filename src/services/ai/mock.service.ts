@@ -86,7 +86,14 @@ Theo quy định đào tạo ngoại ngữ hệ đại học chính quy (cập n
 - Tra cứu học vụ: [student.uit.edu.vn](https://student.uit.edu.vn)
 - Biểu mẫu sinh viên: [ctsv.uit.edu.vn](https://ctsv.uit.edu.vn)
 - Cổng tài chính - học phí: [khtc.uit.edu.vn](https://khtc.uit.edu.vn)`;
-    } else {
+    } else if (
+      lower.includes('xin chào') ||
+      lower.includes('chào') ||
+      lower.includes('hello') ||
+      lower.includes('hi') ||
+      lower.includes('bạn là ai') ||
+      lower.includes('giới thiệu')
+    ) {
       responseText = `Chào bạn! Mình là **UIT AI Assistant** — Trợ lý ảo sinh viên của Trường Đại học Công nghệ Thông tin (ĐHQG-HCM).
 
 Mình có thể hỗ trợ bạn giải đáp các vấn đề:
@@ -97,6 +104,17 @@ Mình có thể hỗ trợ bạn giải đáp các vấn đề:
 - 📅 **Lịch học, lịch thi và thủ tục hành chính trực tuyến**
 
 Bạn có câu hỏi cụ thể nào cần mình trợ giúp không?`;
+    } else {
+      responseText = `Cảm ơn bạn đã đặt câu hỏi! Mình là **UIT AI Assistant** — Trợ lý ảo chuyên trách hỗ trợ thông tin học vụ, quy chế đào tạo và hoạt động sinh viên của **Trường Đại học Công nghệ Thông tin (UIT)**.
+
+⚠️ **Thông báo phạm vi hỗ trợ (Domain Scope)**:
+Rất tiếc, câu hỏi của bạn hiện **nằm ngoài phạm vi hỗ trợ** của hệ thống (mình chỉ chuyên trách các nội dung liên quan đến giáo dục và hoạt động đào tạo tại UIT).
+
+Bạn vui lòng đặt các câu hỏi về:
+* 📝 **Quy chế học vụ, đăng ký môn học, thời khóa biểu & điều kiện tốt nghiệp**
+* 🌐 **Chuẩn ngoại ngữ đầu ra (TOEIC, IELTS, VSTEP) & thủ tục xét miễn**
+* 🏢 **Địa chỉ, nhiệm vụ liên hệ các phòng ban (ĐTĐH, CTSV, KHTC phòng A103, Khoa KHTT phòng E10.2)**
+* 💰 **Chính sách học bổng, định mức học phí & giấy xác nhận sinh viên**`;
     }
 
     const words = responseText.split(' ');
