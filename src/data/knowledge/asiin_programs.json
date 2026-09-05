@@ -1,0 +1,98 @@
+[
+  {
+    "year": 2024,
+    "level": "Đại học & Sau đại học",
+    "status": "Đạt chuẩn kiểm định ASIIN (CHLB Đức)",
+    "validUntil": "2029",
+    "programs": [
+      {
+        "name": "Cử nhân Hệ thống Thông tin",
+        "degree": "Cử nhân",
+        "faculty": "Khoa Hệ thống Thông tin",
+        "focus": "Phân tích nghiệp vụ, hoạch định tài nguyên ERP, quản trị dữ liệu doanh nghiệp."
+      },
+      {
+        "name": "Cử nhân Thương mại Điện tử",
+        "degree": "Cử nhân",
+        "faculty": "Khoa Hệ thống Thông tin",
+        "focus": "Chuyển đổi số, thanh toán điện tử, marketing số, logistic & chuỗi cung ứng thông minh."
+      },
+      {
+        "name": "Thạc sĩ Hệ thống Thông tin",
+        "degree": "Thạc sĩ",
+        "faculty": "Khoa Hệ thống Thông tin",
+        "focus": "Nghiên cứu nâng cao về kiến trúc dữ liệu lớn, bảo mật thông tin và quản trị tri thức số."
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "level": "Đại học & Sau đại học",
+    "status": "Đạt chuẩn kiểm định ASIIN (CHLB Đức)",
+    "validUntil": "2030",
+    "programs": [
+      {
+        "name": "Cử nhân Khoa học Máy tính",
+        "degree": "Cử nhân",
+        "faculty": "Khoa Khoa học Máy tính",
+        "focus": "Trí tuệ nhân tạo (AI), Học máy (Machine Learning), Xử lý ngôn ngữ tự nhiên, Thị giác máy tính."
+      },
+      {
+        "name": "Thạc sĩ Khoa học Máy tính",
+        "degree": "Thạc sĩ",
+        "faculty": "Khoa Khoa học Máy tính",
+        "focus": "Nghiên cứu thuật toán tính toán tiên tiến, Deep Learning và kiến trúc AI quy mô lớn."
+      },
+      {
+        "name": "Cử nhân Mạng máy tính & Truyền thông Dữ liệu",
+        "degree": "Cử nhân",
+        "faculty": "Khoa Mạng máy tính & Truyền thông",
+        "focus": "Điện toán đám mây (Cloud), Mạng 5G/6G, Internet vạn vật (IoT), Quản trị hạ tầng mạng doanh nghiệp."
+      },
+      {
+        "name": "Thạc sĩ An toàn Thông tin",
+        "degree": "Thạc sĩ",
+        "faculty": "Khoa Mạng máy tính & Truyền thông",
+        "focus": "An ninh mạng nâng cao, Mật mã học, Điều tra số (Digital Forensics), Phòng chống mã độc."
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "level": "Đại học & Sau đại học",
+    "status": "Đạt chuẩn kiểm định ASIIN (CHLB Đức)",
+    "validUntil": "2031",
+    "programs": [
+      {
+        "name": "Cử nhân Khoa học Dữ liệu",
+        "degree": "Cử nhân",
+        "faculty": "Khoa Khoa học Máy tính",
+        "focus": "Kỹ thuật dữ liệu (Data Engineering), Phân tích dữ liệu lớn (Big Data Analytics), Trực quan hóa dữ liệu."
+      },
+      {
+        "name": "Cử nhân Công nghệ Thông tin",
+        "degree": "Cử nhân",
+        "faculty": "Khoa Khoa học & Kỹ thuật Thông tin",
+        "focus": "Giải pháp CNTT ứng dụng, Quản trị hệ thống, Tích hợp hệ thống thông minh."
+      },
+      {
+        "name": "Cử nhân Kỹ thuật Phần mềm",
+        "degree": "Cử nhân",
+        "faculty": "Khoa Công nghệ Phần mềm",
+        "focus": "Quy trình phát triển phần mềm Agile/DevOps, Kiến trúc vi dịch vụ (Microservices), Công nghệ Web/Mobile."
+      },
+      {
+        "name": "Cử nhân Kỹ thuật Máy tính",
+        "degree": "Cử nhân",
+        "faculty": "Khoa Kỹ thuật Máy tính",
+        "focus": "Thiết kế vi mạch (IC Design), Hệ thống nhúng (Embedded Systems), Robot thông minh & Tự động hóa."
+      },
+      {
+        "name": "Thạc sĩ Công nghệ Thông tin",
+        "degree": "Thạc sĩ",
+        "faculty": "Khoa Khoa học & Kỹ thuật Thông tin",
+        "focus": "Nghiên cứu ứng dụng CNTT đa ngành và giải pháp công nghệ số."
+      }
+    ]
+  }
+]

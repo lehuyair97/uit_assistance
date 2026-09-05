@@ -1,0 +1,54 @@
+{
+  "gpaScale": {
+    "system4": [
+      { "letter": "A+", "range10": "9.0 - 10.0", "gpa4": 4.0, "classification": "Xuất sắc" },
+      { "letter": "A", "range10": "8.5 - 8.9", "gpa4": 4.0, "classification": "Giỏi" },
+      { "letter": "B+", "range10": "7.8 - 8.4", "gpa4": 3.5, "classification": "Khá giỏi" },
+      { "letter": "B", "range10": "7.0 - 7.7", "gpa4": 3.0, "classification": "Khá" },
+      { "letter": "C+", "range10": "6.3 - 6.9", "gpa4": 2.5, "classification": "Trung bình khá" },
+      { "letter": "C", "range10": "5.5 - 6.2", "gpa4": 2.0, "classification": "Trung bình" },
+      { "letter": "D+", "range10": "4.8 - 5.4", "gpa4": 1.5, "classification": "Trung bình yếu" },
+      { "letter": "D", "range10": "4.0 - 4.7", "gpa4": 1.0, "classification": "Yếu" },
+      { "letter": "F", "range10": "< 4.0", "gpa4": 0.0, "classification": "Kém (Học lại)" }
+    ]
+  },
+  "graduationRequirements": [
+    {
+      "step": 1,
+      "title": "Tích lũy đầy đủ tín chỉ chương trình đào tạo",
+      "detail": "Hoàn thành từ 120 đến 135 tín chỉ tùy ngành (bao gồm các học phần bắt buộc, tự chọn ngành, đồ án chuyên ngành và khóa luận/chuyên đề tốt nghiệp)."
+    },
+    {
+      "step": 2,
+      "title": "Điểm trung bình tích lũy toàn khóa (GPA)",
+      "detail": "Điểm GPA toàn khóa đạt tối thiểu từ 2.00 / 4.00 trở lên (tương đương 5.0 / 10.0)."
+    },
+    {
+      "step": 3,
+      "title": "Chuẩn đầu ra Ngoại ngữ (Tiếng Anh)",
+      "detail": "Sinh viên đạt một trong các chứng chỉ quốc tế còn hiệu lực: TOEIC Listening & Reading từ 550 - 650 (hoặc TOEIC 4 kỹ năng), IELTS Academic từ 5.5 - 6.0, TOEFL iBT từ 60, hoặc chứng chỉ VSTEP từ B1 (Bậc 3/6) đến B2 (Bậc 4/6) theo từng khóa và hệ chuẩn/chất lượng cao."
+    },
+    {
+      "step": 4,
+      "title": "Chứng chỉ Giáo dục Thể chất & Giáo dục Quốc phòng - An ninh (GDQP-AN)",
+      "detail": "Đạt đầy đủ chứng chỉ hoàn thành chương trình GDQP-AN và các học phần Giáo dục thể chất."
+    },
+    {
+      "step": 5,
+      "title": "Chuẩn Kỹ năng mềm & Kỹ năng Tin học",
+      "detail": "Đã hoàn thành tối thiểu 02 chuyên đề Kỹ năng mềm do Phòng CTSV / Trường tổ chức hoặc đạt chứng chỉ kỹ năng tương đương."
+    },
+    {
+      "step": 6,
+      "title": "Điểm Rèn Luyện & Kỷ luật",
+      "detail": "Điểm rèn luyện toàn khóa đạt mức Trung bình trở lên. Không bị kỷ luật ở mức đình chỉ học tập tại thời điểm xét tốt nghiệp."
+    }
+  ],
+  "academicWarningRules": {
+    "warningLevels": [
+      "Cảnh báo học vụ mức 1: GPA học kỳ < 1.00 (HK đầu) hoặc < 1.20 (các HK tiếp theo), hoặc số tín chỉ nợ vượt quá quy định.",
+      "Cảnh báo học vụ mức 2: Bị cảnh báo mức 1 ở học kỳ tiếp theo.",
+      "Buộc thôi học: Bị cảnh báo học vụ 3 lần liên tiếp."
+    ]
+  }
+}

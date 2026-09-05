@@ -1,0 +1,48 @@
+{
+  "admissions": {
+    "methods": [
+      {
+        "id": "PT1",
+        "name": "Tuyển thẳng và ưu tiên xét tuyển theo quy chế của Bộ GD&ĐT và ĐHQG-HCM",
+        "target": "Học sinh giỏi quốc gia, quốc tế, học sinh trường THPT chuyên/năng khiếu."
+      },
+      {
+        "id": "PT2",
+        "name": "Ưu tiên xét tuyển theo quy định riêng của ĐHQG-HCM",
+        "target": "Học sinh các trường THPT thuộc danh sách ưu tiên của ĐHQG-HCM có kết quả học tập xuất sắc."
+      },
+      {
+        "id": "PT3",
+        "name": "Xét tuyển dựa trên kết quả Kỳ thi Đánh giá Năng lực (ĐGNL) ĐHQG-HCM",
+        "target": "Thí sinh tham dự kỳ thi ĐGNL do ĐHQG-HCM tổ chức."
+      },
+      {
+        "id": "PT4",
+        "name": "Xét tuyển dựa trên kết quả Kỳ thi Tốt nghiệp THPT",
+        "target": "Thí sinh xét theo các tổ hợp A00, A01, D01, D07."
+      },
+      {
+        "id": "PT5",
+        "name": "Xét tuyển chứng chỉ quốc tế (SAT, ACT, IB, A-Level) kết hợp học bạ",
+        "target": "Thí sinh có chứng chỉ học thuật quốc tế hoặc bằng tốt nghiệp THPT nước ngoài."
+      }
+    ]
+  },
+  "scholarships": [
+    {
+      "name": "Học bổng Khuyến khích học tập (KKHT)",
+      "period": "Từng học kỳ",
+      "criteria": "Dành cho sinh viên có GPA >= 7.0 (thang 10) và Điểm Rèn Luyện >= 70, phân theo các mức: Xuất sắc, Giỏi, Khá."
+    },
+    {
+      "name": "Học bổng Thủ khoa Tuyển sinh & Tài năng",
+      "period": "Hàng năm",
+      "criteria": "Dành cho Thủ khoa, Á khoa đầu vào các ngành, hỗ trợ 100% học phí và sinh hoạt phí."
+    },
+    {
+      "name": "Học bổng Doanh nghiệp & Cựu sinh viên",
+      "period": "Định kỳ",
+      "criteria": "Tài trợ từ các tập đoàn công nghệ đối tác (Viettel, VNPT, FPT Software, KMS, VNG, Samsung, Intel, Renesas...)."
+    }
+  ]
+}

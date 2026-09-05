@@ -1,0 +1,62 @@
+{
+  "faculties": [
+    {
+      "code": "KHMT",
+      "name": "Khoa Khoa học Máy tính (Faculty of Computer Science)",
+      "programs": ["Khoa học Máy tính (CS)", "Khoa học Dữ liệu (DS)", "Trí tuệ Nhân tạo (AI)"],
+      "strengths": "Nghiên cứu AI hàng đầu, xử lý ngôn ngữ tự nhiên, Big Data."
+    },
+    {
+      "code": "CNPM",
+      "name": "Khoa Công nghệ Phần mềm (Faculty of Software Engineering)",
+      "programs": ["Kỹ thuật Phần mềm (SE)", "Thiết kế Vi mạch (phối hợp)"],
+      "strengths": "Kỹ thuật phần mềm hiện đại, kiến trúc đám mây, ứng dụng di động & web doanh nghiệp."
+    },
+    {
+      "code": "HTTT",
+      "name": "Khoa Hệ thống Thông tin (Faculty of Information Systems)",
+      "programs": ["Hệ thống Thông tin (IS)", "Thương mại Điện tử (EC)"],
+      "strengths": "Chuyển đổi số doanh nghiệp, ERP, phân tích dữ liệu kinh doanh (Business Analytics)."
+    },
+    {
+      "code": "MMT",
+      "name": "Khoa Mạng máy tính & Truyền thông (Faculty of Computer Networks & Communications)",
+      "programs": ["Mạng máy tính & TTDL (NC)", "An toàn Thông tin (ISec)"],
+      "strengths": "An ninh mạng, điện toán đám mây, quản trị hệ thống mạng và IoT."
+    },
+    {
+      "code": "KTMT",
+      "name": "Khoa Kỹ thuật Máy tính (Faculty of Computer Engineering)",
+      "programs": ["Kỹ thuật Máy tính (CE)", "Hệ thống Nhúng & IoT", "Thiết kế Vi mạch bán dẫn (IC Design)"],
+      "strengths": "Phần cứng, thiết kế chip bán dẫn, vi điều khiển, robotics tự động hóa."
+    },
+    {
+      "code": "KTTT",
+      "name": "Khoa Khoa học & Kỹ thuật Thông tin (Faculty of Information Science and Engineering)",
+      "programs": ["Công nghệ Thông tin (IT)"],
+      "strengths": "CNTT ứng dụng, công nghệ đa phương tiện, tích hợp hệ thống thông minh."
+    }
+  ],
+  "portalsAndContacts": [
+    {
+      "name": "Phòng Đào tạo Đại học (DAA)",
+      "url": "https://daa.uit.edu.vn",
+      "role": "Giải quyết đăng ký môn học, điểm số, xét tốt nghiệp, thời khóa biểu và cấp bảng điểm."
+    },
+    {
+      "name": "Phòng Công tác Sinh viên (CTSV)",
+      "url": "https://ctsv.uit.edu.vn",
+      "role": "Giải quyết chế độ chính sách, học bổng, điểm rèn luyện, bảo hiểm y tế và chứng nhận sinh viên."
+    },
+    {
+      "name": "Cổng Quản lý Sinh viên",
+      "url": "https://student.uit.edu.vn",
+      "role": "Hệ thống tra cứu tiến độ học tập, nợ tín chỉ, học phí trực tuyến."
+    },
+    {
+      "name": "Hệ thống Học tập Trực tuyến Moodle (Courses)",
+      "url": "https://courses.uit.edu.vn",
+      "role": "Nộp bài tập, tài liệu bài giảng, thi trắc nghiệm trực tuyến."
+    }
+  ]
+}
