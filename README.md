@@ -90,6 +90,72 @@ Nhấn vào biểu tượng **Chatbot UIT** ở góc phải màn hình để b�
 | `pnpm build` | Biên dịch tối ưu hóa mã nguồn cho môi trường Production |
 | `pnpm start` | Khởi chạy server sau khi đã build production |
 | `pnpm lint` | Quét kiểm tra lỗi cú pháp và format chuẩn Next.js / TypeScript |
+| `pnpm docker:build` | Đóng gói (Capture) image Docker `uit-assistance` |
+| `pnpm docker:run` | Khởi chạy container từ image đã build (cổng 3000) |
+| `pnpm docker:stop` | Dừng và xóa container đang chạy |
+| `pnpm docker:save` | Xuất (Export) image ra file `uit-assistance-image.tar` |
+| `pnpm docker:load` | Nạp (Import) image từ file `.tar` vào máy tính khác |
+| `pnpm docker:compose` | Khởi chạy toàn bộ hệ thống bằng Docker Compose (Khuyên dùng) |
+| `pnpm docker:compose:down` | Dừng và giải phóng hệ thống Docker Compose |
+
+---
+
+## 🐳 Triển Khai Bằng Docker (Container Deployment)
+
+Dự án được cấu hình sẵn **Multi-stage Dockerfile** tối ưu hóa dựa trên `node:22-alpine` và chế độ `standalone` của Next.js, giúp giảm dung lượng image từ ~1GB xuống chỉ còn ~150-200MB.
+
+### 1. Đóng gói (Capture) Docker Image
+
+Sử dụng lệnh pnpm hoặc script hỗ trợ để đóng gói toàn bộ mã nguồn thành một Docker Image hoàn chỉnh:
+
+```bash
+# Cách 1: Sử dụng pnpm script
+pnpm docker:build
+
+# Cách 2: Sử dụng shell script trực tiếp
+./scripts/capture-image.sh
+```
+
+> 💡 **Mẹo (Xuất file nén .tar để chia sẻ hoặc nộp bài):**  
+> Chạy lệnh:  
+> ```bash
+> ./scripts/capture-image.sh --export
+> # Hoặc: pnpm docker:save
+> ```  
+> Lệnh này sẽ tạo ra file nén `uit-assistance-image.tar`. Người khác chỉ cần nhận file và nạp vào máy bằng lệnh `pnpm docker:load` (hoặc `docker load -i uit-assistance-image.tar`) là có thể chạy ngay mà không cần cài Node.js hay build lại!
+
+---
+
+### 2. Khởi chạy Ứng dụng từ Docker Image
+
+Sau khi đã có image, bạn có thể khởi chạy ứng dụng với một trong hai cách sau:
+
+#### Cách A: Chạy nhanh bằng Docker Script (Đã tự động nạp `.env.local`)
+```bash
+# Cách 1: Sử dụng pnpm
+pnpm docker:run
+
+# Cách 2: Sử dụng script
+./scripts/run-image.sh
+```
+
+#### Cách B: Sử dụng Docker Compose (Khuyên dùng trong môi trường thực tế)
+```bash
+# Khởi chạy ngầm trong background
+pnpm docker:compose
+# (Hoặc: docker compose up -d --build)
+
+# Xem logs thời gian thực:
+docker compose logs -f
+
+# Dừng container:
+pnpm docker:compose:down
+# (Hoặc: docker compose down)
+```
+
+Truy cập ứng dụng ngay tại: 👉 **[http://localhost:3000](http://localhost:3000)**
+
+---
 
 ---
 

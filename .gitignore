@@ -30,3 +30,6 @@ next-env.d.ts
 .idea
 .DS_Store
 *.pem
+
+# docker image exports
+*.tar

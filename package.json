@@ -7,7 +7,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "docker:build": "docker build -t uit-assistance .",
+    "docker:run": "./scripts/run-image.sh",
+    "docker:stop": "docker stop uit_assistant_app && docker rm uit_assistant_app",
+    "docker:save": "docker save -o uit-assistance-image.tar uit-assistance",
+    "docker:load": "docker load -i uit-assistance-image.tar",
+    "docker:compose": "docker compose up -d --build",
+    "docker:compose:down": "docker compose down"
   },
   "dependencies": {
     "@google/genai": "^2.20.0",
